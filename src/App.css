@@ -1,0 +1,101 @@
+body{
+  overflow: hidden;
+}
+
+#App{
+  display: flex;
+  position: relative;
+}
+
+#canvas{
+  width: 65vw;
+  height: 100vh;
+}
+
+#content{
+  margin-left: 20px;
+  width: 35vw;
+  height: 100vh;
+  transform: translateY(30%);
+  -ms-transform: translateY(-30%);
+}
+
+@media only screen and (max-width: 900px) {
+  #App{
+    display: block;
+    position: relative;
+  }
+  
+  #canvas{
+    width: 100vw;
+    height: 60vh;
+  }
+  
+  #content{
+    text-align: center;
+    width: 100vw;
+    height: 40vh;
+    margin-top: 25px;
+    margin-left: 0;
+    transform: translateY(0%);
+    -ms-transform: translateY(-0%);
+  }
+
+  #content p, #content h1{
+    max-width: 80%;
+    margin: 10px auto;
+  }
+
+  #buttons{
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  #buttons #light{
+    margin: 10px auto;
+  }
+}
+
+#loading{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.portfolio{
+  display: flex;
+  margin: 30px 0 30px 0;
+}
+
+.porto{
+  margin: 0 5px 0 5px;
+  width: 400px;
+  height: 100px;
+}
+
+button{
+  padding: 5px 10px;
+  margin-top: 15px;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+}
+
+button:disabled,button:hover:disabled{
+  background-color: white;
+  color: black;
+  cursor: context-menu;
+  opacity: 75%;
+}
