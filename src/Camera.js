@@ -15,6 +15,7 @@ export const Camera = (props) => {
       {move: new THREE.Vector3(-2.3,2.5,-0.9),rotate:new THREE.Vector3(THREE.MathUtils.degToRad(0),THREE.MathUtils.degToRad(90),THREE.MathUtils.degToRad(0))}, // Computer
       {move: new THREE.Vector3(0,3,-3.3),rotate:new THREE.Vector3(THREE.MathUtils.degToRad(-90),THREE.MathUtils.degToRad(0),THREE.MathUtils.degToRad(0))}, // Ipad
     ]
+    
     const [cameraPosition, setCameraPosition] = useState(target[0].move)
     const [cameraRotation, setCameraRotation] = useState(target[0].rotate)
     const ref = useRef();
