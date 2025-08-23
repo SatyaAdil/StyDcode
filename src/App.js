@@ -50,7 +50,7 @@ function App() {
       </div>
       {progress < 100 &&
         <div id='loading'>
-          <h3>loading......</h3>
+          <h3>Loading......</h3>
         </div>
       }
       {progress >= 100 &&

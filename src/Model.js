@@ -40,9 +40,9 @@ const Model = () => {
         </Html>
         <Html transform distanceFactor={1} position={[0, 2, -3.5]} rotation-x={THREE.MathUtils.degToRad(-90)} rotation-y={THREE.MathUtils.degToRad(0)} rotation-z={THREE.MathUtils.degToRad(340)}>
             <div style={{marginTop: "210px",paddingLeft:"20px"}}>
-              <a href='https://www.instagram.com/noosabaktee/' target='_blank' style={{marginBottom: "15px",display: "flex",width: "70px",height:"20px"}}></a>
-              <a href='https://github.com/noosabaktee/' target='_blank' style={{marginBottom: "15px",display: "flex",width: "70px",height:"20px"}}></a>
-              <a href='https://www.linkedin.com/in/rama-nusa-bakti-8a9410288/' target='_blank' style={{marginBottom: "15px",display: "flex",width: "70px",height:"20px"}}></a>
+              <a href='https://www.instagram.com/styadil/' target='_blank' style={{marginBottom: "15px",display: "flex",width: "70px",height:"20px"}}></a>
+              <a href='https://github.com/SatyaAdil' target='_blank' style={{marginBottom: "15px",display: "flex",width: "70px",height:"20px"}}></a>
+              <a href='https://www.linkedin.com/in/satya-adil-faishal-0373b1332/' target='_blank' style={{marginBottom: "15px",display: "flex",width: "70px",height:"20px"}}></a>
             </div>
         </Html>
       </primitive>
@@ -50,4 +50,3 @@ const Model = () => {
   )
 };
 export default Model;
-// update
